@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DCBD8B4D-9147-4E0E-6F89-042C5DB0FA30" containerWithKeyObject="6CCF4E74-0959-3090-15F7-178E2042C1C0" localFKIndex="7BD474E1-629D-825D-821E-528EB1A0360F" name="Historia_rezerwacji_pokoi_Pokoje_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-12-14 19:21:39 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<referredTableLongName>Pokoje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B1884AAB-43D5-956D-D799-C0E9C75650CE</referredTableID>
+<keyObject>2FED5EFE-A442-B9D5-3762-7023B712497F</keyObject>
+<referredKeyID>2FED5EFE-A442-B9D5-3762-7023B712497F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pokoju</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

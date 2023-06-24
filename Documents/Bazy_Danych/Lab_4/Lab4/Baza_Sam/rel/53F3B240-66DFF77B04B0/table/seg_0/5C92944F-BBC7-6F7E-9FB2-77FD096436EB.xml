@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C92944F-BBC7-6F7E-9FB2-77FD096436EB" name="Parking_rezerwacje">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Parking_rezerwacje_ID" id="9900E2AC-6CB0-1108-3B1D-33EFBF95BC21">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rezerwacje_ID" id="4868CDAC-9C7E-6AE3-0668-34346E267790">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C35B5904-5B46-B7BE-BF90-A62E34522613" referredColumn="9A7EC0E7-9D70-3703-6476-6C169C64D75D"/>
+</associations>
+</Column>
+<Column name="Miejsce_parkingowe_ID" id="F1F31209-7ADA-BA89-A945-269736818E44">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A790E9B5-6C1B-865E-CAE7-E2869B4081F7" referredColumn="85C00819-26DD-B855-A871-A17C0695C9F1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1F097E7-8A27-474C-297C-205682A59A58" name="Parking_rezerwacje_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9900E2AC-6CB0-1108-3B1D-33EFBF95BC21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B00A2D84-D710-ECB1-C433-EE951D699C03" name="Parking_rezerwacje_Rezerwacje_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4868CDAC-9C7E-6AE3-0668-34346E267790"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A04AB081-1C68-F980-2E45-DE34F3068C6B" name="Parking_rezerwacje_Parking_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1F31209-7ADA-BA89-A945-269736818E44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

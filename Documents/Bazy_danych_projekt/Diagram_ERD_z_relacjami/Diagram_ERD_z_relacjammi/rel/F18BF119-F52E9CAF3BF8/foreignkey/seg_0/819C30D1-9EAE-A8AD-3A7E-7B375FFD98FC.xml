@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="819C30D1-9EAE-A8AD-3A7E-7B375FFD98FC" containerWithKeyObject="9F5695D1-CD4A-A5BB-A545-93C594BEB952" localFKIndex="72B7E340-7909-A638-092A-A68928E8F93A" name="Dodatki_Rodzaj_ doatku_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-04 10:30:01 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<referredTableLongName>Rodzaj_ dodatku</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C7B84C5D-E824-2C3C-BCE2-736100437CA6</referredTableID>
+<keyObject>3BA07506-FFA9-06DB-EA62-794768180215</keyObject>
+<referredKeyID>3BA07506-FFA9-06DB-EA62-794768180215</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Rodzaj_dodatku</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

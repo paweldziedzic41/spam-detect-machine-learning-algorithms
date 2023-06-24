@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB82DF02-320E-FCCB-B0E0-E5AE9F896CBF" name="Rodzaje_dodatkow">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rodzaj_dodatku" id="A30696DE-C520-12CD-44F6-9AC5712474CE">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena" id="F3E4E8CA-A259-3E69-FAAA-943C9AFFD5B5">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDA8E59F-1D27-EC72-1007-1F8D37D1A890" name="Rodzaj_ doatku_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A30696DE-C520-12CD-44F6-9AC5712474CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

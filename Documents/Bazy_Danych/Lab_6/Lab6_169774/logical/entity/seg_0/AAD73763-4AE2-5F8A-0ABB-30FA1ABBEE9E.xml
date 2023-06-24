@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAD73763-4AE2-5F8A-0ABB-30FA1ABBEE9E" name="Hotele">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>EA650962-5BC7-3E45-F481-387CF4CEBBC3</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Hotele</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Hotelu" id="38CB281B-1BDC-3763-A833-E8C548827190">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>F109E671-3A4E-A855-7E50-FB25015FE537</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa Hotelu" id="A74A1FEA-613E-5919-19B0-CE37A4A71AAA">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>B9C22E1C-1E8B-19EE-60F3-3E8AF227B9B7</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kraj zamieszkania" id="B0477179-9C2C-4715-D66C-1780C3BE7AD8">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>DB497E4B-46BC-377D-C3FF-B29773E40112</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Wojewodztwo" id="06E42CD2-85E4-D6E5-1C00-A40B6CA12C64">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>F0D96A96-F35C-D48F-1BB2-C188A512C34E</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Miejscowosc" id="0E7EB1FB-EE01-4252-8C98-95E10F4CF83D">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>4BA65734-BDE5-75A1-E604-1DE3E18B3887</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kod pocztowy" id="962560B5-C821-ED95-BE28-A20A46109C60">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>F52A7AA4-0B10-A63E-DD30-FBC65653D146</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ulica" id="4B76C6A2-DF79-87B7-C022-959FE77321FA">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>33CF7B48-2030-B4E6-67AC-0758EFC1D9E9</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nr budynku" id="143CDF49-6668-86ED-88D2-08B763D5A8E6">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>2204D9EE-F54A-6B2D-B478-463E6393591A</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Standard" id="3F281E42-896E-A07F-9147-4D6A7F2726D3">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>0778A628-C50C-B493-A357-760CDB61BB82</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C958368-C94F-1739-029F-CD8659480755" name="Hotele PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>0EFAF0FC-09E3-E398-1187-45A748012DB2</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38CB281B-1BDC-3763-A833-E8C548827190</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

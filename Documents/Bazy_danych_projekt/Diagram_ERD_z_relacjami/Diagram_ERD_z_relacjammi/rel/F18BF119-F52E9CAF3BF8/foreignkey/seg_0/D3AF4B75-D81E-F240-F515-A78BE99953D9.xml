@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D3AF4B75-D81E-F240-F515-A78BE99953D9" containerWithKeyObject="E18A67AF-1ED2-2B56-0BCF-B2994D0ED698" localFKIndex="D28615AB-7C43-C772-1929-17B311564475" name="Historia_rezerwacji_cateringu_Catering_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-12-14 19:20:50 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<referredTableLongName>Catering</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CCEA4B29-2CDF-0423-0138-228432481A2F</referredTableID>
+<keyObject>D8B0FA2C-D6D8-4A6D-3CFD-DE8E18F82B44</keyObject>
+<referredKeyID>D8B0FA2C-D6D8-4A6D-3CFD-DE8E18F82B44</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rodzaj_cateringu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

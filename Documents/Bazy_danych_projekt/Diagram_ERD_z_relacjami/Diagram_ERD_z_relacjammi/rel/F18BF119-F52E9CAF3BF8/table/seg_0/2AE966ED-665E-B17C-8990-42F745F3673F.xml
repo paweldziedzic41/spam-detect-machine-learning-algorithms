@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AE966ED-665E-B17C-8990-42F745F3673F" name="Hotele">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:32:26 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<abbreviation>Hotele</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Hotelu" id="960B95EE-3F52-9149-1D5A-5A92A855F68B">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:33:31 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_Hotelu" id="D3A59270-7AB4-5200-742A-543955B310F1">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:33:57 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kod_pocztowy" id="A23753C4-0647-FDBD-5860-95503C45DB85">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-04 10:08:15 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF75DA00-8019-5CA5-4B06-842918AC5D69" referredColumn="CADF8286-AA7F-20ED-1269-F45D483405D6"/>
+</associations>
+</Column>
+<Column name="Ulica" id="C1BF0141-499B-AEB6-3EDC-528E037A2097">
+<createdBy>gosc</createdBy>
+<createdTime>2022-12-14 18:55:33 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nr_budynku" id="5ED3DDB9-C5E6-39A0-E3C0-9B78BEDAD98D">
+<createdBy>gosc</createdBy>
+<createdTime>2022-12-14 18:55:33 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Standard" id="D65DA68E-8DD2-4F62-AB82-AC8DD24121EC">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:34:52 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cecha_szczegolna" id="21093E6F-677E-0EF0-798D-EDD386B1DFF3">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:35:29 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="648A5CDA-1B55-F89E-6893-FBCAAEC21D23" name="Hotele_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:33:31 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="960B95EE-3F52-9149-1D5A-5A92A855F68B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D245F8B0-E787-D103-6FB1-3CC3DC7A6D3D" name="Hotele_Adresy_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-04 10:08:15 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A23753C4-0647-FDBD-5860-95503C45DB85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

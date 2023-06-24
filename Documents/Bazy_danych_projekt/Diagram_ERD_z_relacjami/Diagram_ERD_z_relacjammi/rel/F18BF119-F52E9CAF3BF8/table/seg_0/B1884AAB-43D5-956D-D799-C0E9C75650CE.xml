@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1884AAB-43D5-956D-D799-C0E9C75650CE" name="Pokoje">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:35:42 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<abbreviation>Pokoje</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pokoju" id="C4FE9276-54B1-7CBB-2FF4-12E393AFC3A1">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:36:51 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hotele_ID" id="728DCD46-4DDF-5736-61CD-45A8A8CE2AE2">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 18:47:45 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFB8806E-AEF6-5A83-AA0B-76BE3F56CDE1" referredColumn="960B95EE-3F52-9149-1D5A-5A92A855F68B"/>
+</associations>
+</Column>
+<Column name="Rodzaje_pokoi" id="52ECD212-2ECC-E41D-2F2F-2DFD3EB27040">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 18:48:30 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9FC8A46-DD79-DF01-3B65-0E30D937EE2B" referredColumn="7988B061-4788-2074-1AD9-5C036C0B6565"/>
+</associations>
+</Column>
+<Column name="Nr_pokoju" id="C2EDA9AC-3AA4-01F8-D77E-1C851B137A24">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 19:46:07 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FED5EFE-A442-B9D5-3762-7023B712497F" name="Pokoje_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:36:51 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4FE9276-54B1-7CBB-2FF4-12E393AFC3A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92608B52-9F7D-D57D-F67E-2ACF59F2E391" name="Pokoje_Hotele_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 18:47:45 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="728DCD46-4DDF-5736-61CD-45A8A8CE2AE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4735B3F7-ABF5-E39F-9817-8F1FB3B003F4" name="Pokoje_Rodzaje_pokoi_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 18:48:30 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52ECD212-2ECC-E41D-2F2F-2DFD3EB27040"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

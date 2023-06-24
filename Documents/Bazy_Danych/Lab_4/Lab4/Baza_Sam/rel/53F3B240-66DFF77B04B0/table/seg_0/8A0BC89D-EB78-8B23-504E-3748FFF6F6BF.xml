@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A0BC89D-EB78-8B23-504E-3748FFF6F6BF" name="Parking">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<abbreviation>Parking</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Miejsca_parkingowego" id="85C00819-26DD-B855-A871-A17C0695C9F1">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hotele_ID" id="1750CC37-EF25-2309-4CEC-A5E678ED8223">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C010D8AD-FB84-4DAC-BDEF-0B452B0DEFD7" referredColumn="74BCA9EC-2470-DF83-044E-CEC481055806"/>
+</associations>
+</Column>
+<Column name="Nr_miejsca_parknigowego" id="CD709BB1-CA7E-08DE-F9E9-289A8F5380E7">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E139599F-256F-4393-4932-E7E3A4ECABA1" name="Parking_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85C00819-26DD-B855-A871-A17C0695C9F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62587410-4A1F-BB4D-E831-A7C0570542A2" name="Parking_Hotele_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1750CC37-EF25-2309-4CEC-A5E678ED8223"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

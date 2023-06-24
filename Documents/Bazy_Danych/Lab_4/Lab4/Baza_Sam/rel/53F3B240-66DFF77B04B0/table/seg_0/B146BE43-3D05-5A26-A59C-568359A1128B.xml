@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B146BE43-3D05-5A26-A59C-568359A1128B" name="Ocena_i_opis">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:09:47 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Rezerwacji" id="0D83CDF3-FE5C-5103-4755-4C289A8BD11E">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:10:35 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B73F680-7B21-1719-5DEB-5593D7E91A21" referredColumn="9A7EC0E7-9D70-3703-6476-6C169C64D75D"/>
+</associations>
+</Column>
+<Column name="Ocena_pobytu" id="E28C77D0-C310-B130-56E5-3FE4A1170871">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:10:15 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis_pobytu" id="03DC240E-6FCF-8930-87EE-8A534AA32041">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:10:25 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D911EBB0-DC1A-3857-0010-A760AB4BF49C" name="Ocena_i_opis_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:11:05 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D83CDF3-FE5C-5103-4755-4C289A8BD11E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="282F1D1F-9F8F-981D-7054-E48A4FEECE8B" name="Ocena_i_opis_Rezerwacje_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:10:35 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D83CDF3-FE5C-5103-4755-4C289A8BD11E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

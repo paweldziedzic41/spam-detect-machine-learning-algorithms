@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA971446-809A-F392-EBBD-63D610CA9D53" name="Parking_rezerwacje">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-30 08:31:19 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Parking_rezerwacje_ID" id="8F77DD79-1C0D-849C-2444-8CC81F9C0295">
+<createdBy>gosc</createdBy>
+<createdTime>2022-12-14 18:11:10 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name=" Rezerwacje_ID" id="AB06D5B5-8F14-DD34-C6C9-A94037F55ABF">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-30 08:32:02 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C6DB18A-C57E-7E06-C6BC-D3D604FAF445" referredColumn="68BF1FDE-1ECC-0BE7-52E8-07A050B09FD2"/>
+</associations>
+</Column>
+<Column name="Miejsce_parkingowego_ID" id="C30569C7-32E3-CA32-B18B-675EE3E31995">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-04 18:34:49 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF6F9780-2160-2785-60F9-B9F4A2093224" referredColumn="EC8CB187-8BF0-0A56-2D7D-F2E0BC7F830C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39251A03-0CDC-6E83-DF2C-D2EE18733C55" name="Parking_rezerwacje_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-30 18:04:28 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F77DD79-1C0D-849C-2444-8CC81F9C0295"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A5085BB-6497-BA67-B971-77CA555561C1" name="Parking_rezerwacje_Rezerwacje_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-30 08:32:02 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB06D5B5-8F14-DD34-C6C9-A94037F55ABF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5DDAF6F-9188-9C58-0FCE-117546B1C244" name="Parking_rezerwacje_Parking_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-04 18:34:49 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C30569C7-32E3-CA32-B18B-675EE3E31995"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

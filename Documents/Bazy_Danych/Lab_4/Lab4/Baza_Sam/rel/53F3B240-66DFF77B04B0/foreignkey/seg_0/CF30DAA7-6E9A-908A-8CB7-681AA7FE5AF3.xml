@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF30DAA7-6E9A-908A-8CB7-681AA7FE5AF3" containerWithKeyObject="D63E0D40-64D2-C589-4237-9A5808D855D8" localFKIndex="D75D02E4-E7DF-8E8A-3AB7-A890CF5470EE" name="Zaliczki_Rezerwacje_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<referredTableLongName>Rezerwacje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2DB12566-70F7-16B5-FA05-3CA6281627B4</referredTableID>
+<keyObject>4F25F841-FDC9-AAC1-B532-5436A01B88BA</keyObject>
+<referredKeyID>4F25F841-FDC9-AAC1-B532-5436A01B88BA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_rezerwacji</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

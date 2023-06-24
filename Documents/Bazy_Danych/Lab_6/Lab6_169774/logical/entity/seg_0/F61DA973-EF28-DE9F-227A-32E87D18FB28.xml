@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F61DA973-EF28-DE9F-227A-32E87D18FB28" name="Parking rezerwacje">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>FA4049DB-8229-4091-37FC-A62D0AAC3807</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Parking rezerwacje ID" id="BEBFA8C0-771A-756C-ED3C-5AC0B78A723F">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>97B1B888-6CD6-8598-0EF5-E6009176DA28</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rezerwacje ID" id="5B222F1B-965E-07CB-ECA1-CF3DB43A82E7">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>E050723D-3B3A-4F80-5E2D-A3C060CD34E7</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<referedAttribute>8430262E-7BEA-0531-CE5A-E160CC77C19C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Miejsce parkingowe ID" id="E68D2B9C-630D-134A-0222-15DCA6072E32">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>7B6002FB-B60F-53DE-2562-CBF1585CC5B8</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<referedAttribute>DF0486AA-3470-6F46-A929-ED8E1667EB79</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="330F17F0-68E7-782F-F353-A702575BBE06" name="Parking rezerwacje PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>5E9A3170-DD44-78AB-E4D5-97370440F161</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BEBFA8C0-771A-756C-ED3C-5AC0B78A723F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

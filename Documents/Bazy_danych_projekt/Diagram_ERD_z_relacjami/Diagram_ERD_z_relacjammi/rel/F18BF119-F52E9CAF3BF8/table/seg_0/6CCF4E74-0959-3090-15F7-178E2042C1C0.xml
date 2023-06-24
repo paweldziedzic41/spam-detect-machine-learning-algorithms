@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CCF4E74-0959-3090-15F7-178E2042C1C0" name="Historia_rezerwacji_pokoi">
+<createdBy>gosc</createdBy>
+<createdTime>2022-12-14 18:48:00 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Historia_rezerwacji_pokoju" id="979ED465-A8DD-268C-2DE1-E7F68D0953F4">
+<createdBy>gosc</createdBy>
+<createdTime>2022-12-14 19:23:00 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Historia_pobytow_ID" id="1D9EEB99-C2C2-39F0-CA73-94922F0BFA07">
+<createdBy>gosc</createdBy>
+<createdTime>2022-12-14 19:20:26 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3BD916A-C77D-E20F-6591-2670097E0647" referredColumn="7AF2259D-64A9-B344-4402-DF60E4F2E4B4"/>
+</associations>
+</Column>
+<Column name="Pokoje_ID" id="98F2923D-C1EA-FE2A-3957-5EC1E2DE8F8F">
+<createdBy>gosc</createdBy>
+<createdTime>2022-12-14 19:21:39 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCBD8B4D-9147-4E0E-6F89-042C5DB0FA30" referredColumn="C4FE9276-54B1-7CBB-2FF4-12E393AFC3A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D11F3E5-6E52-0CEF-98AB-9A7C3BC8F399" name="Historia_rezerwacji_pokoi_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-12-14 19:23:00 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="979ED465-A8DD-268C-2DE1-E7F68D0953F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A60E5E4F-FAA0-6510-3E0E-5556ED06A06B" name="Historia_rezerwacji_pokoi_Historia_pobytow_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-12-14 19:20:26 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D9EEB99-C2C2-39F0-CA73-94922F0BFA07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BD474E1-629D-825D-821E-528EB1A0360F" name="Historia_rezerwacji_pokoi_Pokoje_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-12-14 19:21:39 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98F2923D-C1EA-FE2A-3957-5EC1E2DE8F8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

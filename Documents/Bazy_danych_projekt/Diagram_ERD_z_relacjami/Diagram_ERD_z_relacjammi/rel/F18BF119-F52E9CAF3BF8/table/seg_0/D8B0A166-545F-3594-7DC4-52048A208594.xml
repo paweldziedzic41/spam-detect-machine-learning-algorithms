@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8B0A166-545F-3594-7DC4-52048A208594" name="Dodatki_rezerwacje">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-29 21:50:13 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dodatki_ozn" id="31262EB4-CBD7-CB6A-E7D6-C581996E96FE">
+<createdBy>gosc</createdBy>
+<createdTime>2022-12-14 18:10:05 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24FFC99C-DE8D-B36B-72CA-248C0B42D46C" referredColumn="BE185649-0BAC-2484-AAF3-03EF98E19777"/>
+</associations>
+</Column>
+<Column name="Rezerwacje_ID" id="1974ABB3-48CF-9818-9350-28C42EEF5193">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-29 21:52:10 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B54AA45D-9DDC-459C-D3DC-57225D08245F" referredColumn="68BF1FDE-1ECC-0BE7-52E8-07A050B09FD2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08B8366D-21C0-7ACB-9862-B5483D8EF1D6" name="Dodatki_rezerwacje_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-30 18:04:11 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31262EB4-CBD7-CB6A-E7D6-C581996E96FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F52560DB-E941-4CCB-F9B9-AF0418C67F3C" name="Dodatki_rezerwacje_Dodatki_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-29 21:52:03 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31262EB4-CBD7-CB6A-E7D6-C581996E96FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98BAA74E-9D44-5E01-C906-28029DD3872C" name="Dodatki_rezerwacje_Rezerwacje_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-29 21:52:10 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1974ABB3-48CF-9818-9350-28C42EEF5193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

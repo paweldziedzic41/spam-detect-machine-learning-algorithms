@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B80C6E31-8A94-55DE-CF25-3269F66D0F70" name="Dodatki">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>Dodatki</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Dodatku" id="D70534E2-3253-C6B8-DAA9-5CC951E2CBD5">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hotele_ID" id="233198A0-4256-4E73-3137-AF5C12510047">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4CED2C6-D64D-61B3-E6E7-DC729C2CC928" referredColumn="F109E671-3A4E-A855-7E50-FB25015FE537"/>
+</associations>
+</Column>
+<Column name="Rodzaj_ dodatku" id="33517993-E266-0B82-C389-AA582F4754C1">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC0C0B38-F37E-ED89-EE98-179EA200F20C" name="Dodatki_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D70534E2-3253-C6B8-DAA9-5CC951E2CBD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D900397F-7B77-C4CB-F0CA-8DA8CAC56E97" name="Dodatki_Hotele_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="233198A0-4256-4E73-3137-AF5C12510047"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

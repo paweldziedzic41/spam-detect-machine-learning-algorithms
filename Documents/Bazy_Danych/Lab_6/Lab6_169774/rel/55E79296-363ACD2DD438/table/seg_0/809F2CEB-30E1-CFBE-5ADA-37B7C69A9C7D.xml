@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="809F2CEB-30E1-CFBE-5ADA-37B7C69A9C7D" name="Dodatki_rezerwacje">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Rezerwacji_Dodatku" id="B53CFCE3-B8B8-C1CD-6E62-0F37C0328EA5">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rezerwacje_ID" id="25DBF74B-CCA5-583A-D6E6-401165D6B9B3">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93EC285B-AE99-3F98-566E-862E603E7446" referredColumn="32407014-E497-F3E2-BDBA-57D6EBCBE8C7"/>
+</associations>
+</Column>
+<Column name="Dodatek_ID" id="3AE5C9F8-3514-5B39-FFF2-1CC838A4E7D3">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2C39483-7852-EC20-6F13-A8362F746933" referredColumn="D70534E2-3253-C6B8-DAA9-5CC951E2CBD5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C3FF0DF-583D-9878-0A42-F34FECD8F11D" name="Dodatki_rezerwacje_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B53CFCE3-B8B8-C1CD-6E62-0F37C0328EA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C53861E8-49FF-1BA7-510C-35456DC7ED30" name="Dodatki_rezerwacje_Rezerwacje_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25DBF74B-CCA5-583A-D6E6-401165D6B9B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07F13716-DBC7-3C22-FA4B-31FD5194FB28" name="Dodatki_rezerwacje_Dodatki_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AE5C9F8-3514-5B39-FFF2-1CC838A4E7D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

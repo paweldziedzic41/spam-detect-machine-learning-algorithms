@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Parking_rezerwacje_Rezerwacje_FK" directorySegmentName="seg_0" id="E050723D-3B3A-4F80-5E2D-A3C060CD34E7">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>AB0C4A4C-C08E-913C-0F42-CCF145DA57D7</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<sourcePk>48606AAC-6625-5D27-6693-1E855BEF552C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0B344487-8DBF-F464-B720-6C6044739FB5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F61DA973-EF28-DE9F-227A-32E87D18FB28</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

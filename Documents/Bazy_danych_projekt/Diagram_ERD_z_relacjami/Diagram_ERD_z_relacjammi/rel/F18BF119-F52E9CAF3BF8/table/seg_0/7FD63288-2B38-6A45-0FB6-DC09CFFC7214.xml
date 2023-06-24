@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7FD63288-2B38-6A45-0FB6-DC09CFFC7214" name="Rezerwacje_catering">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-30 10:17:49 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rezerwacje_cateringu_ID" id="597D1CBC-5B54-0199-805A-D69587B25456">
+<createdBy>gosc</createdBy>
+<createdTime>2022-12-01 07:51:27 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rodzaj_cateringu" id="9E7966D1-B6F2-949E-EB4E-3A95133ABECB">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-30 10:18:41 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="895C1423-B6EB-C6D5-F2A6-B110FDA9F9FD" referredColumn="D8764403-4DC1-11EB-6CA4-A88F33B1262E"/>
+</associations>
+</Column>
+<Column name="Rezerwacje_ID" id="6188B897-7F68-3895-A8D7-654E5B6A8041">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-30 10:18:33 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1515CB38-EBBA-D4A0-920B-6CB5E2A15F8F" referredColumn="68BF1FDE-1ECC-0BE7-52E8-07A050B09FD2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8BE5BDA-01A9-B2CD-C473-B58BD03D837B" name="Rezerwacje_catering_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-30 18:05:23 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="597D1CBC-5B54-0199-805A-D69587B25456"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4BA9E7A-3996-F9C9-70E7-9F993B3367E1" name="Rezerwacje_catering_Rezerwacje_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-30 10:18:33 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6188B897-7F68-3895-A8D7-654E5B6A8041"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="571CD25B-C526-8EBC-51BB-479C8AD7E207" name="Rezerwacje_catering_Catering_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-30 10:18:41 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E7966D1-B6F2-949E-EB4E-3A95133ABECB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

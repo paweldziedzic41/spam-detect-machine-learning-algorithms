@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39CF9A2B-8616-B207-47DD-04D1C80B4672" name="Dodatki_rezerwacje">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Rezerwacji_Dodatku" id="DDCF97E0-539C-CC0C-4DFC-ECA32A8F93EE">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 17:23:16 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rezerwacje_ID" id="6815322D-116E-3F79-7A2D-C086B7F56F40">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="285C8DDA-12A0-2AB2-8396-E85EC75055B2" referredColumn="9A7EC0E7-9D70-3703-6476-6C169C64D75D"/>
+</associations>
+</Column>
+<Column name="Dodatek_ID" id="C592F7DF-3172-ED38-2D30-7EDB4335B893">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 17:25:41 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="748AA43D-BB66-FCA5-55E9-902BC4DDE76D" referredColumn="9815BE4E-A120-F707-4416-855C318DF62D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D297522E-DA3C-D7F8-B134-583C9704170E" name="Dodatki_rezerwacje_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDCF97E0-539C-CC0C-4DFC-ECA32A8F93EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B56FCD1-8B8C-AA67-2957-4EDB4325514A" name="Dodatki_rezerwacje_Rezerwacje_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6815322D-116E-3F79-7A2D-C086B7F56F40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5568360E-B462-BE23-AA73-5AC66CB8C297" name="Dodatki_rezerwacje_Dodatki_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 17:25:41 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C592F7DF-3172-ED38-2D30-7EDB4335B893"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

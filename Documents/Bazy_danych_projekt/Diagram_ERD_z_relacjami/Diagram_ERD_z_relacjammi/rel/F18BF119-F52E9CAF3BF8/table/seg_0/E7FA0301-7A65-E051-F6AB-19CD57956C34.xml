@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7FA0301-7A65-E051-F6AB-19CD57956C34" name="Klienci">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:25:22 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>Klienci</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PESEL" id="4CE3469F-FFE2-A30C-7729-A1C59552C2A0">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:25:57 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="A079F217-C9AE-9C17-6EBF-2C5DF2A035F5">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:26:43 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="34A87563-4F32-6291-B4FC-9084C705FE92">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:27:18 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kod_pocztowy" id="6BBC56CA-90DA-D506-F4B4-5383C3FD2CA5">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-04 09:43:04 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B8D67FF-46B3-1FF8-DF7B-969DF3F4F6A1" referredColumn="CADF8286-AA7F-20ED-1269-F45D483405D6"/>
+</associations>
+</Column>
+<Column name="Ulica" id="53501807-E579-E958-D513-009E48941C83">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-30 17:52:14 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nr_domu" id="7F850D47-3B24-0E5E-42EB-4E78FD6A67F6">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-30 17:55:47 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nr_mieszkania" id="438EF713-9608-7216-B498-752090F601C3">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-30 17:55:27 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nr_telefonu" id="90648A44-FBD2-C120-F7BC-F4507DDF8DBE">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:31:08 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E_mail" id="9F4666DE-AFDC-2ABC-EE10-72DCF0C1BC2A">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:31:58 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EAB4023-BB3E-5255-8273-9E08A9E8EC85" name="Klienci_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:26:19 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CE3469F-FFE2-A30C-7729-A1C59552C2A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86297C3D-F152-7803-5680-F36A530AB23E" name="Klienci_Adresy_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-04 09:43:04 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BBC56CA-90DA-D506-F4B4-5383C3FD2CA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

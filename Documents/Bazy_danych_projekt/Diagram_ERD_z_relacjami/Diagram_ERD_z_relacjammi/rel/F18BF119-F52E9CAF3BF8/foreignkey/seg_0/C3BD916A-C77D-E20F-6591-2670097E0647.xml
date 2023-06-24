@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C3BD916A-C77D-E20F-6591-2670097E0647" containerWithKeyObject="6CCF4E74-0959-3090-15F7-178E2042C1C0" localFKIndex="A60E5E4F-FAA0-6510-3E0E-5556ED06A06B" name="Historia_rezerwacji_pokoi_Historia_pobytow_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-12-14 19:20:26 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<referredTableLongName>Historia_pobytow</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E2F6C160-0396-6C3D-E497-C03794C90B28</referredTableID>
+<keyObject>71016812-A636-DF39-D4E6-3AEB5B2DCAC1</keyObject>
+<referredKeyID>71016812-A636-DF39-D4E6-3AEB5B2DCAC1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Rezerwacje_id_rezerwacji</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

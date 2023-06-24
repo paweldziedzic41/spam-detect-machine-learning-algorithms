@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="748AA43D-BB66-FCA5-55E9-902BC4DDE76D" containerWithKeyObject="39CF9A2B-8616-B207-47DD-04D1C80B4672" localFKIndex="5568360E-B462-BE23-AA73-5AC66CB8C297" name="Dodatki_rezerwacje_Dodatki_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 17:25:41 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<referredTableLongName>Dodatki</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BC84998F-C6AC-2A9D-EC5F-2B9D34D3ED75</referredTableID>
+<keyObject>D6F83A54-AD44-423D-4678-8A45A499A517</keyObject>
+<referredKeyID>D6F83A54-AD44-423D-4678-8A45A499A517</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Dodatku</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

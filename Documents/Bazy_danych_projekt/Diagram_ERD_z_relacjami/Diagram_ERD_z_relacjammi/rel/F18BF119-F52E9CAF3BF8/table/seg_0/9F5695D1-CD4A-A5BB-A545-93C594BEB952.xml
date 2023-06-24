@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F5695D1-CD4A-A5BB-A545-93C594BEB952" name="Dodatki">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:50:29 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>Dodatki</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Oznaczenie_dodatku" id="BE185649-0BAC-2484-AAF3-03EF98E19777">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:52:06 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hotele_ID" id="AE86B0BE-AD42-3247-BFAB-23A00D1EC50B">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 18:50:48 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F663E53A-4FF4-243F-6C75-53431EC7D8F8" referredColumn="960B95EE-3F52-9149-1D5A-5A92A855F68B"/>
+</associations>
+</Column>
+<Column name="Rodzaj_ dodatku" id="681FF060-F240-AC4F-65CF-C97B18DCE24F">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-04 10:30:01 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="819C30D1-9EAE-A8AD-3A7E-7B375FFD98FC" referredColumn="BE589884-6FDE-1508-4899-0CE2B5B3FAE9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7ABB0BB3-1D67-4F40-177E-FA20FA998740" name="Dodatki_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:51:36 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE185649-0BAC-2484-AAF3-03EF98E19777"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E8950E0-2523-1200-AA96-2DB1F5BE89DF" name="Dodatki_Hotele_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 18:50:48 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE86B0BE-AD42-3247-BFAB-23A00D1EC50B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72B7E340-7909-A638-092A-A68928E8F93A" name="Dodatki_Rodzaj_ doatku_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-04 10:30:01 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="681FF060-F240-AC4F-65CF-C97B18DCE24F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

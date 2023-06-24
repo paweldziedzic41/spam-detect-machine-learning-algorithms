@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0F04915-2040-E3DC-F6C4-870EDFF99FB5" name="Rezerwacje_catering">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rezerwacje_cateringu_ID" id="CBBBD607-0228-7BA3-84AC-5F4B4475AC21">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rezerwacje_ID" id="BEC4C58E-6E07-FA71-A18A-3EA349551F37">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7275DC8-FC37-31A5-805D-963C2049F3CE" referredColumn="32407014-E497-F3E2-BDBA-57D6EBCBE8C7"/>
+</associations>
+</Column>
+<Column name="Rodzaj_cateringu" id="83C804AB-FD9E-4CDA-12B1-708046B6547D">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D07B3BC5-7A5E-49F8-E1FA-100770D74E52" referredColumn="92894DA6-3700-FAC9-D8F0-85F1249F8746"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CED039DA-C1D8-2C1C-287C-04B393EBCD3B" name="Rezerwacje_catering_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBBBD607-0228-7BA3-84AC-5F4B4475AC21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A80A4CAD-4111-33DC-4201-3E6EFA4FD02D" name="Rezerwacje_catering_Rezerwacje_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEC4C58E-6E07-FA71-A18A-3EA349551F37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5738B76F-42DA-BCFB-7D77-A6C4FA4FC835" name="Rezerwacje_catering_Catering_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 22:51:59 UTC</createdTime>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83C804AB-FD9E-4CDA-12B1-708046B6547D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

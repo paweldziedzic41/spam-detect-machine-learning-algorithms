@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7B84C5D-E824-2C3C-BCE2-736100437CA6" name="Rodzaj_ dodatku">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-04 10:29:01 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rodzaj_dodatku" id="BE589884-6FDE-1508-4899-0CE2B5B3FAE9">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-04 10:29:46 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena" id="E601474E-127B-67AF-8B18-682CCFF36A2F">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-04 10:29:56 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BA07506-FFA9-06DB-EA62-794768180215" name="Rodzaj_ doatku_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-04 10:29:46 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE589884-6FDE-1508-4899-0CE2B5B3FAE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

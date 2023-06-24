@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rezerwacje_Klienci_FK" directorySegmentName="seg_0" id="D5B2F5A5-149F-0B96-75DF-A494628D6B3B">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>B56340A3-C106-032E-CD69-FEA2D104A10D</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<sourcePk>7F41230D-1183-25F8-CAC2-6D1274186C28</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3D474084-B808-1859-C0D3-8216A5A6A37C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0B344487-8DBF-F464-B720-6C6044739FB5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

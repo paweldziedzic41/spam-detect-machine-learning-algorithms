@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A2F3630-1082-D7CD-7269-4DD36F2BF929" name="Rezerwacje">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:38:38 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<abbreviation>Rezerwacje</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rezerwacji" id="68BF1FDE-1ECC-0BE7-52E8-07A050B09FD2">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:39:43 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klienci_ID" id="F682D2FF-41F6-78D6-C5D9-4FF0926A3F5C">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 18:46:38 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="230B1977-6573-9C36-FD18-388E50B9BFEA" referredColumn="4CE3469F-FFE2-A30C-7729-A1C59552C2A0"/>
+</associations>
+</Column>
+<Column name="Hotele_ID" id="2CA0BE91-C8C4-D7DB-32E7-447C1336C9F7">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 18:47:15 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95477136-7EC5-2BC8-B083-94AF2B684318" referredColumn="960B95EE-3F52-9149-1D5A-5A92A855F68B"/>
+</associations>
+</Column>
+<Column name="Data_przyjzadu" id="C7C69BF2-7C40-E6EB-8181-208B18BEE46F">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:40:03 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_odjazdu" id="55C26AA0-C2B3-688C-6F51-959DBB363F74">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:40:24 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Platnosc" id="4BF6AD1C-8B4D-1B91-09AA-9F23B3E72516">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:41:22 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status_rezerwacji" id="F7972FD0-76B7-6707-787D-CE2B63A2C8D6">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-29 20:21:40 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Koszt_rezerwacji" id="B74EC95D-7101-EF6F-9A38-33A3A908A5E5">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-30 10:03:47 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C66092E-2803-94C3-B2FF-18A8C08E1DEC" name="Rezerwacje_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 18:51:59 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68BF1FDE-1ECC-0BE7-52E8-07A050B09FD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0AD4206-B9C5-6A3C-10FA-4221CF59ECF8" name="Rezerwacje_Klienci_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 18:46:38 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F682D2FF-41F6-78D6-C5D9-4FF0926A3F5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB3F4B54-0BEF-32AC-C9FB-00380E5E92EF" name="Rezerwacje_Hotele_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 18:47:15 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CA0BE91-C8C4-D7DB-32E7-447C1336C9F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3EC5129-0503-48E3-F64A-10913C31579C" name="Rodzaje_pokoi">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:37:25 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<abbreviation>Rodzaje_pokoi</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rodzaj_pokoju" id="7988B061-4788-2074-1AD9-5C036C0B6565">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:38:09 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena" id="5DE72973-2CF4-B4D8-A224-6C74F9D0F380">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-04 10:19:31 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90C1A222-EAEA-385F-07F7-E419889AAD58" name="Rodzaje_pokoi_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 17:38:09 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7988B061-4788-2074-1AD9-5C036C0B6565"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

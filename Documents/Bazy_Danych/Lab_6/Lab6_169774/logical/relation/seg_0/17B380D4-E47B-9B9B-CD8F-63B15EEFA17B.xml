@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Parking_Hotele_FK" directorySegmentName="seg_0" id="17B380D4-E47B-9B9B-CD8F-63B15EEFA17B">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>C8AABD9E-B05B-65D1-35C3-80DCDDDCAFC1</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<sourcePk>7C958368-C94F-1739-029F-CD8659480755</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AAD73763-4AE2-5F8A-0ABB-30FA1ABBEE9E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2EA0F98B-0634-AB63-A62C-3F4050231D8C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

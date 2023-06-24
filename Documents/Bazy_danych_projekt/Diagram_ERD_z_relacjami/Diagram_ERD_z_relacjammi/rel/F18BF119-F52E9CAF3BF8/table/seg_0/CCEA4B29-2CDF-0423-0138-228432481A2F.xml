@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCEA4B29-2CDF-0423-0138-228432481A2F" name="Catering">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 18:32:27 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<abbreviation>Catering</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rodzaj_cateringu" id="D8764403-4DC1-11EB-6CA4-A88F33B1262E">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 18:33:07 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena" id="FF29E6BA-BE78-D594-71DD-DA2D850F8DDB">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-30 10:06:50 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8B0FA2C-D6D8-4A6D-3CFD-DE8E18F82B44" name="Catering_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2022-11-15 18:33:13 UTC</createdTime>
+<ownerDesignName>Diagram_ERD_z_relacjammi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8764403-4DC1-11EB-6CA4-A88F33B1262E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

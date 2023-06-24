@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rezerwacje_catering_Catering_FK" directorySegmentName="seg_0" id="73DF239B-5A34-E79A-B767-3980AFE13A85">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>D07B3BC5-7A5E-49F8-E1FA-100770D74E52</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<sourcePk>82DE0F78-6FD8-B721-343F-63B52621AE88</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F7E765EC-A1E8-2B5E-91DD-AA58B5DF76E6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7B873AE9-B210-B688-7A0D-667BE0E5B0B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

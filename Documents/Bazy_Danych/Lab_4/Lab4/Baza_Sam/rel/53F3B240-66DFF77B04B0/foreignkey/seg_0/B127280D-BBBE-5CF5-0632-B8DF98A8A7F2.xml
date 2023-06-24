@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B127280D-BBBE-5CF5-0632-B8DF98A8A7F2" containerWithKeyObject="2DB12566-70F7-16B5-FA05-3CA6281627B4" localFKIndex="99D64A44-480F-4822-69B2-73363648FD2E" name="Rezerwacje_Klienci_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-06 13:05:19 UTC</createdTime>
+<ownerDesignName>Baza_Sam</ownerDesignName>
+<referredTableLongName>Klienci</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8E0BD4FF-ED9D-2DC0-9352-5A1F02737AE6</referredTableID>
+<keyObject>12C894AB-C988-6D48-5036-DA66BDC1AA37</keyObject>
+<referredKeyID>12C894AB-C988-6D48-5036-DA66BDC1AA37</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PESEL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

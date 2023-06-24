@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pokoje_rezerwacje_Pokoje_FK" directorySegmentName="seg_0" id="EE6B92CB-52C3-266B-84DC-5F8699AB92F3">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>7CDD0B0F-0690-4E43-C66B-0E7360070148</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<sourcePk>9AD33742-757E-3762-3627-F881D62EA3A5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B89FE62B-3E45-E310-8A65-18F7943B972D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>116F10E1-53F3-3142-AEC3-CACDCBBFB074</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

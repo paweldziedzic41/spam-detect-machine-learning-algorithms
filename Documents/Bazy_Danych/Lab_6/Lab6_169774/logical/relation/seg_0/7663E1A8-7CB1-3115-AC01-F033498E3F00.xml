@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pokoje_Hotele_FK" directorySegmentName="seg_0" id="7663E1A8-7CB1-3115-AC01-F033498E3F00">
+<createdBy>gosc</createdBy>
+<createdTime>2023-01-14 23:08:30 UTC</createdTime>
+<generatorID>A9EA3895-03AD-B830-01FA-8F76C07CECCA</generatorID>
+<ownerDesignName>Lab6_169774</ownerDesignName>
+<engineerTo>
+<item key="55E79296-1EA0-C64C-30B8-363ACD2DD438" value="true"/>
+</engineerTo>
+<sourcePk>7C958368-C94F-1739-029F-CD8659480755</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AAD73763-4AE2-5F8A-0ABB-30FA1ABBEE9E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B89FE62B-3E45-E310-8A65-18F7943B972D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
