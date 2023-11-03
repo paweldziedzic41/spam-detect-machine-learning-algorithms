@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CE358D27-0275-F7A6-C825-789CDACD1EF8" containerWithKeyObject="472514EB-121B-FBC8-A787-D6F7047DE078" localFKIndex="6E48B738-3CD9-DF6D-6435-69F24170A640" name="Punkty_Mecze_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:40:34 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<referredTableLongName>Mecze</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9895B9E2-A356-C2FD-97D6-69FA63CEB258</referredTableID>
+<keyObject>BFEEC722-5615-71EB-93EE-E99E6CA138DF</keyObject>
+<referredKeyID>BFEEC722-5615-71EB-93EE-E99E6CA138DF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_meczu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

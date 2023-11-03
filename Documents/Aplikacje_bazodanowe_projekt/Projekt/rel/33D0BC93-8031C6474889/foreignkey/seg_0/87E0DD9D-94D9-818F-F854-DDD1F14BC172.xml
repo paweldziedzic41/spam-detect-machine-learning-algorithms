@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="87E0DD9D-94D9-818F-F854-DDD1F14BC172" containerWithKeyObject="77955856-7FC6-09E3-7B7F-239B84E400EA" localFKIndex="80D2DCFF-EE59-EF92-0DB4-FA2229902C77" name="Mecz_szczegoly_Zawodnicy_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:57:05 UTC</createdTime>
+<generatorID>CB9A7EB3-7A10-6669-1865-78B45B4DE6F4</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<referredTableLongName>Zawodnicy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>64D74911-801A-D4AC-DDAB-2451243560FE</referredTableID>
+<keyObject>D75C3BF5-0784-CAA4-37BA-9EFB173C5823</keyObject>
+<referredKeyID>D75C3BF5-0784-CAA4-37BA-9EFB173C5823</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_zawodnika</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC213A1B-9C76-0C92-6A52-67C389D0B0B8" containerWithKeyObject="A116C90C-94F7-1062-394B-CAA8A0F41BF3" localFKIndex="B440D787-0F35-6A84-A3B1-8063AB96EA8A" name="Zmiany_Zawodnicy_FKv2">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:52:40 UTC</createdTime>
+<generatorID>CB9A7EB3-7A10-6669-1865-78B45B4DE6F4</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<referredTableLongName>Zawodnicy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>64D74911-801A-D4AC-DDAB-2451243560FE</referredTableID>
+<keyObject>D75C3BF5-0784-CAA4-37BA-9EFB173C5823</keyObject>
+<referredKeyID>D75C3BF5-0784-CAA4-37BA-9EFB173C5823</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_zawodnika</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

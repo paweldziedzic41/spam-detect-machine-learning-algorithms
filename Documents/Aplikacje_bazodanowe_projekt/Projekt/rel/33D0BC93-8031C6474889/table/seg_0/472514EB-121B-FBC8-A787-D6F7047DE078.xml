@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="472514EB-121B-FBC8-A787-D6F7047DE078" name="Punkty">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:40:09 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_meczu" id="AEF4415A-7F6B-CBE3-3F29-B2EACBFD6F12">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:40:34 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE358D27-0275-F7A6-C825-789CDACD1EF8" referredColumn="8EB3A5F7-39CB-4981-AC51-EA670A2D7984"/>
+</associations>
+</Column>
+<Column name="Punkty_gosp" id="6BA6F394-AD46-48DF-D3D3-C817EB320DC7">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:41:24 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Punkty_gosc" id="F0AAA493-A2AF-4791-AB2D-1AEF237FC7A7">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:41:24 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D4190FE-4311-C50E-A4B6-5E687E4492D1" name="Punkty_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:44:05 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEF4415A-7F6B-CBE3-3F29-B2EACBFD6F12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E48B738-3CD9-DF6D-6435-69F24170A640" name="Punkty_Mecze_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:40:34 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEF4415A-7F6B-CBE3-3F29-B2EACBFD6F12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88EB32DD-6913-F357-7AF0-2419016FD431" name="Druzyny">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:37:07 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="33D0BC93-D8BE-1AE7-FA54-8031C6474889" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_druzyny" id="0678CC7B-27A7-851F-CD6E-18DFC2342472">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:37:13 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="33D0BC93-D8BE-1AE7-FA54-8031C6474889" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_ligi" id="FA894594-D078-AA19-6491-07007B631704">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:38:55 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="33D0BC93-D8BE-1AE7-FA54-8031C6474889" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa_druzyny" id="3023E38A-5B09-3C87-23DC-FB42F2C3E621">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:39:11 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="33D0BC93-D8BE-1AE7-FA54-8031C6474889" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_stadionu" id="7B3B6C99-ED5F-6223-8742-BC8F9F7DFFD4">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:39:31 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="33D0BC93-D8BE-1AE7-FA54-8031C6474889" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_menadzera" id="C934DEFA-38F8-6282-02CB-09F6E425D2B9">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:39:55 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="33D0BC93-D8BE-1AE7-FA54-8031C6474889" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33842878-670A-0F11-A95A-98109134CDE4" name="Druzyny PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:38:52 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="33D0BC93-D8BE-1AE7-FA54-8031C6474889" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0678CC7B-27A7-851F-CD6E-18DFC2342472</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="156A2116-3B2A-2B13-96E9-01D915764382" name="Pozycje">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:59:21 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_pozycji" id="37A3E78F-B330-CA6B-8973-7CE00D53928D">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:00:30 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pozycja" id="E83A4651-7E1C-6072-A0D4-F37E13367413">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:00:30 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5319F08-41B6-12F8-52AF-F20386C45E6B" name="Pozycje_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:00:30 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37A3E78F-B330-CA6B-8973-7CE00D53928D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

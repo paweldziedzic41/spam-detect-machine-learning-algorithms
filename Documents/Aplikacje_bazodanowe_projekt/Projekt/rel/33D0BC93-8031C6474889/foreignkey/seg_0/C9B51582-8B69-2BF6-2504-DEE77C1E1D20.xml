@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9B51582-8B69-2BF6-2504-DEE77C1E1D20" containerWithKeyObject="E40E3397-80A7-68E2-DA71-C9B14437BB1D" localFKIndex="160F299E-A64F-0B29-DE92-10E0D44B5D3F" name="Druzyny_Menadzerowie_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:48:17 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<referredTableLongName>Menadzerowie</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AE192318-539F-9A6F-862D-ACC6E30B9745</referredTableID>
+<keyObject>9492E330-0DE8-82B0-65B2-ECE847C6DCAF</keyObject>
+<referredKeyID>9492E330-0DE8-82B0-65B2-ECE847C6DCAF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_menadzera</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

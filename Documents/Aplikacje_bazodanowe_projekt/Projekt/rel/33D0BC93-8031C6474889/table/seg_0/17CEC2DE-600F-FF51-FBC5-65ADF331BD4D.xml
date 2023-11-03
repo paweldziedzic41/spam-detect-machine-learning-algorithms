@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17CEC2DE-600F-FF51-FBC5-65ADF331BD4D" name="Stadiony">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:42:31 UTC</createdTime>
+<generatorID>14BE794E-148A-2A0A-3916-D754D4B0BFF8</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_stadionu" id="AC823472-7A48-A529-6081-ADB499074C0D">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:44:21 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_stadionu" id="0B88823B-8B6F-0B1E-B7F8-99388BEC793F">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:44:21 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Miasto" id="BF59B894-AEEA-D60B-F8AB-27ADF539FC0E">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:44:21 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pojemnosc" id="669EED93-BCEF-EEC8-704A-A79953DE877A">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:44:21 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92493241-DE54-DDC8-DEE3-29079C4171A1" name="Stadiony_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:44:21 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC823472-7A48-A529-6081-ADB499074C0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

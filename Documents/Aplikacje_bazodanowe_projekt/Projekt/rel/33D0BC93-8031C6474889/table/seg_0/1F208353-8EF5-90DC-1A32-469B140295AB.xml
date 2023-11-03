@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F208353-8EF5-90DC-1A32-469B140295AB" name="Sedziowie">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:53:16 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_sedzi" id="57DD1E5F-7086-4640-53D5-4C110DC3A58A">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:53:55 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="4D5860AA-D890-26C4-03F8-F4BE8A9DB470">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:53:55 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>34</dataTypeSize>
+<ownDataTypeParameters>34,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="A16BAB47-1B83-52DC-0981-37E46D8FF36C">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:54:06 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>34</dataTypeSize>
+<ownDataTypeParameters>34,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_urodzenia" id="78E61C76-E884-4F1D-F3E4-D70F4DBEBCC5">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:54:33 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="140377C0-3E95-5C1C-72DC-C4BF5DCBD185" name="Sedziowie_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:53:55 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57DD1E5F-7086-4640-53D5-4C110DC3A58A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

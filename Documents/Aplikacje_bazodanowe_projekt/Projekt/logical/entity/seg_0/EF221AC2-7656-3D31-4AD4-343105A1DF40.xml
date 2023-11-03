@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EF221AC2-7656-3D31-4AD4-343105A1DF40" name="Zawodnicy">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:33:26 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="33D0BC93-D8BE-1AE7-FA54-8031C6474889" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_zawodnika" id="217B266F-2367-76DA-4F3A-3BE5DCBB0EAF">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:33:57 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="33D0BC93-D8BE-1AE7-FA54-8031C6474889" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_druzyny" id="05F60AE6-A322-2DF1-AEA2-2829A4FBCA9D">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:34:39 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="33D0BC93-D8BE-1AE7-FA54-8031C6474889" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="791A9F8E-C876-19A0-8FF9-BBCDF3AFEB73">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:35:00 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="33D0BC93-D8BE-1AE7-FA54-8031C6474889" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>34</dataTypeSize>
+<ownDataTypeParameters>34,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="069956E3-B8C0-3622-CC03-AB9ECA5F59B5">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:35:28 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="33D0BC93-D8BE-1AE7-FA54-8031C6474889" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Nardowosc" id="926D3384-0852-B90C-5DF2-65DBF1EB4F2B">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:36:03 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="33D0BC93-D8BE-1AE7-FA54-8031C6474889" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_urodzenia" id="B9A36B86-8B43-12B4-0F53-5E4BF5DC09A8">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:36:52 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="33D0BC93-D8BE-1AE7-FA54-8031C6474889" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CB9A7EB3-7A10-6669-1865-78B45B4DE6F4" name="Zawodnicy PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:34:24 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="33D0BC93-D8BE-1AE7-FA54-8031C6474889" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>217B266F-2367-76DA-4F3A-3BE5DCBB0EAF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

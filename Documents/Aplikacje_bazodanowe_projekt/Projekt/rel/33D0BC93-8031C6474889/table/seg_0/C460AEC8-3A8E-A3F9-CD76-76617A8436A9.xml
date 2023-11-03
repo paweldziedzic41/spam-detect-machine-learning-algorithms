@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C460AEC8-3A8E-A3F9-CD76-76617A8436A9" name="Ligi">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:45:01 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_ligi" id="AAC7127B-2080-C71D-4F0D-194BA67E11EC">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:45:43 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_ligi" id="DC968B50-B214-92D2-6F17-DD7CCBDD1D38">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:45:43 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_zalozenia" id="66E04941-1E40-E8EF-58CD-35B029CD7E70">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:46:22 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C941799F-953F-6F26-BD61-5C7E763579F3" name="Ligi_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:45:43 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAC7127B-2080-C71D-4F0D-194BA67E11EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E40E3397-80A7-68E2-DA71-C9B14437BB1D" name="Druzyny">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:42:31 UTC</createdTime>
+<generatorID>88EB32DD-6913-F357-7AF0-2419016FD431</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_druzyny" id="711A867E-86B9-99F9-6BF5-8597BD7E68EB">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:42:31 UTC</createdTime>
+<generatorID>0678CC7B-27A7-851F-CD6E-18DFC2342472</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_ligi" id="66224AA0-4C63-740B-4888-0FC76D0A9FC3">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:46:32 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C6C048D-69F6-3BAF-A0CA-7FF9F83B746D" referredColumn="AAC7127B-2080-C71D-4F0D-194BA67E11EC"/>
+</associations>
+</Column>
+<Column name="Id_stadionu" id="33405AF2-6C2D-9ACB-8B13-1F851ED6B4C7">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:44:30 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B86F8ABB-0797-7469-1555-BAF837BBFE6E" referredColumn="AC823472-7A48-A529-6081-ADB499074C0D"/>
+</associations>
+</Column>
+<Column name="Nazwa_druzyny" id="F2ADBB73-E5B1-0FE6-6693-320FBBAC690C">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:42:31 UTC</createdTime>
+<generatorID>3023E38A-5B09-3C87-23DC-FB42F2C3E621</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_menadzera" id="37A08DDC-C44D-98F1-4EFF-B06F2FA5AE6D">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:48:17 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9B51582-8B69-2BF6-2504-DEE77C1E1D20" referredColumn="AA3669B1-398A-A287-7E38-D435202F80E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30B61509-BCA3-F032-D1AC-F2CDCFF143F2" name="Druzyny_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:42:31 UTC</createdTime>
+<generatorID>33842878-670A-0F11-A95A-98109134CDE4</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="711A867E-86B9-99F9-6BF5-8597BD7E68EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="130B9C3D-398B-5290-D5BA-CD60B1E152A6" name="Druzyny_Stadiony_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:44:30 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33405AF2-6C2D-9ACB-8B13-1F851ED6B4C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FE18909-7FFD-9794-EB02-47838B0A0692" name="Druzyny_Ligi_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:46:32 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66224AA0-4C63-740B-4888-0FC76D0A9FC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="160F299E-A64F-0B29-DE92-10E0D44B5D3F" name="Druzyny_Menadzerowie_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 18:48:17 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37A08DDC-C44D-98F1-4EFF-B06F2FA5AE6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

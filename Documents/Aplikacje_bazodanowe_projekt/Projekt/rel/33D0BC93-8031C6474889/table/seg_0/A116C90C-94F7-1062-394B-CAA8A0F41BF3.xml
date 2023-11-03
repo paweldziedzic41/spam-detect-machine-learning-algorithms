@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A116C90C-94F7-1062-394B-CAA8A0F41BF3" name="Zmiany">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:50:54 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_zmiany" id="B2011194-BB9B-995E-83FF-A6A8602B8799">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:51:47 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_meczu" id="7BFA294D-6ED7-6317-46FD-57199C1826F4">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:52:19 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6FA60F7-86BA-8C17-17A5-EF0CB135514B" referredColumn="8EB3A5F7-39CB-4981-AC51-EA670A2D7984"/>
+</associations>
+</Column>
+<Column name="Id_zawodnika_out" id="26C4D08E-56C9-E8E2-59F7-D7DF0CA77088">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:52:36 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99E0188C-C5F8-5826-33BC-56019060789F" referredColumn="468FAC8D-E94C-31D4-D787-E721EEECD5B3"/>
+</associations>
+</Column>
+<Column name="Id_zawodnika_in" id="8BE8A7AC-BBA4-DC6F-D01D-0E0E2F9E86DB">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:52:40 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC213A1B-9C76-0C92-6A52-67C389D0B0B8" referredColumn="468FAC8D-E94C-31D4-D787-E721EEECD5B3"/>
+</associations>
+</Column>
+<Column name="Minuta_zmiany" id="9C9A0C50-336E-27D6-2DDA-487FBDD6E60A">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:53:25 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1FDBEA1-A0DD-7FC8-0C9F-F99A6F457540" name="Zmiany_PK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:51:57 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2011194-BB9B-995E-83FF-A6A8602B8799"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B64B2B56-F22A-2AF3-374C-12827FF4FEB8" name="Zmiany_Mecze_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:52:19 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BFA294D-6ED7-6317-46FD-57199C1826F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74A2EF09-4EBA-5CAA-CEBD-F158BBE7BA1F" name="Zmiany_Zawodnicy_FK">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:52:36 UTC</createdTime>
+<generatorID>CB9A7EB3-7A10-6669-1865-78B45B4DE6F4</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26C4D08E-56C9-E8E2-59F7-D7DF0CA77088"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B440D787-0F35-6A84-A3B1-8063AB96EA8A" name="Zmiany_Zawodnicy_FKv2">
+<createdBy>gosc</createdBy>
+<createdTime>2023-11-03 19:52:40 UTC</createdTime>
+<generatorID>CB9A7EB3-7A10-6669-1865-78B45B4DE6F4</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BE8A7AC-BBA4-DC6F-D01D-0E0E2F9E86DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
